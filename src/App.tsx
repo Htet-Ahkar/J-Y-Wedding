@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="flex h-screen w-screen items-center justify-center bg-[#FFFBF4]">
+      <main className="flex w-full flex-col items-center justify-center px-6 py-12">
+        <div className="flex items-center justify-center">
+          <img
+            src="/J&Y.svg"
+            alt="J and Y monogram"
+            className="w-64 drop-shadow-sm sm:w-96 md:w-[520px] lg:w-[640px]"
+          />
+        </div>
+
+        <div className="mt-6">
+          <img
+            src="/Date.svg"
+            alt="Wedding date"
+            className="mx-auto w-32 opacity-95 sm:w-40 md:w-48"
+          />
+        </div>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
