@@ -8,7 +8,7 @@ function App() {
           <img
             src="/J&Y.svg"
             alt="J and Y monogram"
-            className="w-64 drop-shadow-sm sm:w-96 md:w-[520px] lg:w-[640px]"
+            className="w-64 sm:w-96 md:w-[520px] lg:w-[640px]"
           />
         </div>
 
