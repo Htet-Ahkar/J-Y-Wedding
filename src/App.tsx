@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-[#FFFBF4]">
+    <div className="flex h-screen w-screen items-center justify-center bg-[#fff6ee]">
       <main className="flex w-full flex-col items-center justify-center px-6 py-12">
         <div className="flex items-center justify-center">
           <img
